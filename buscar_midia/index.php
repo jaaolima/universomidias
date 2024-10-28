@@ -220,6 +220,14 @@
                     });
                 }
 
+                markers.forEach(function(m) {
+                    if ((m.bairro == localidade || localidade == 'todos') && (m.tipo == tipo || tipo == 'todos')) {
+                        m.setVisible(true); // Esconde o marcador
+                    }else{
+                        m.setVisible(false);
+                    }
+                });
+
                 $('#filtro').keyup(function () {
                     var texto = $(this).val().toLowerCase().split(' ');
                 
@@ -257,6 +265,14 @@
                             }
                         });
                     }
+
+                    markers.forEach(function(m) {
+                        if ((m.bairro == localidade || localidade == 'todos') && (m.tipo == tipo || tipo == 'todos')) {
+                            m.setVisible(true); // Esconde o marcador
+                        }else{
+                            m.setVisible(false);
+                        }
+                    });
                 });
 
                 $('#id_localizacao_filtro').change(function () {
@@ -279,6 +295,14 @@
                             }
                         });
                     }
+
+                    markers.forEach(function(m) {
+                        if ((m.bairro == localidade || localidade == 'todos') && (m.tipo == tipo || tipo == 'todos')) {
+                            m.setVisible(true); // Esconde o marcador
+                        }else{
+                            m.setVisible(false);
+                        }
+                    });
                 });
 
                 $("#mostrar_todos").on("click", function(){
@@ -353,7 +377,8 @@
                             lng: <?php echo $latitudeElongitude[1]; ?>,
                             title: '<?php echo $retorno[$i]['ds_descricao']; ?>',
                             id: <?php echo $retorno[$i]["id_ponto"]; ?>,
-                            bairro: '<?php echo $retorno[$i]["ds_localidade"]; ?>'
+                            bairro: '<?php echo $retorno[$i]["ds_localidade"]; ?>',
+                            tipo: '<?php echo $retorno[$i]["id_tipo"]; ?>'
                         });
 
                         markers.push(marker<?php echo $retorno[$i]['id_ponto']; ?>);
