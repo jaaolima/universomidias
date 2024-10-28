@@ -211,7 +211,7 @@
                     });
                 }else{
                     $('#lista .coluna-card').each(function () {
-                        if($(this).find('input[name="tipo"]').val() == tipo && ($(this).find('input[name="nome"]').val() == localidade) || localidade == 'todos') {
+                        if($(this).find('input[name="tipo"]').val() == tipo && ($(this).find('input[name="nome"]').val() == localidade || localidade == 'todos')) {
                             $(this).closest('.coluna-card').show();
                             return true;
                         } else {
@@ -249,7 +249,7 @@
                         });
                     }else{
                         $('#lista .coluna-card').each(function () {
-                            if($(this).find('input[name="tipo"]').val() == tipo && ($(this).find('input[name="nome"]').val() == localidade) || localidade == 'todos') {
+                            if($(this).find('input[name="tipo"]').val() == tipo && ($(this).find('input[name="nome"]').val() == localidade || localidade == 'todos')) {
                                 $(this).closest('.coluna-card').show();
                                 return true;
                             } else {
