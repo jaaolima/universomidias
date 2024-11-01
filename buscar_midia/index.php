@@ -169,6 +169,7 @@
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div id="map" height="350px" class="w-100 rounded"></div>
+                    <p class="text-primary" style="font-size:18px;">Clique no ponto para pesquisa-lo</p>
                 </div>
             </div>
         </div>
