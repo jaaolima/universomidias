@@ -77,9 +77,13 @@
                 filter: brightness(0.3); /* Ajuste o brilho conforme necessário */
                 z-index: 0; /* Coloca a imagem abaixo do conteúdo */
             }
+
+            body{
+                overflow-x: hidden !important;
+            }
         </style>
     </head>
-    <body id="page-top">
+    <body id="page-top" class="w-100">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
             <div class="container px-5">
@@ -218,54 +222,56 @@
         </section>
         <h1 class="text-center my-5" style="font-weight:200;">Nossos Parceiros</h1>
         <div class="py-5" id="parceiros">
-            <div class="align-items-center d-flex" style="justify-content: space-between;">
-                <div class="col-1 my-3">
+            <div class="row align-items-center d-flex">
+                <div class="col-md-2 col-sm-3 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_castelo_forte.jpg" alt="..." aria-label="Castelo Forte"></a>
                 </div>
-                <div class="col-1 my-3">
+                <div class="col-md-2 col-sm-3 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_campeao.png" alt="..." aria-label="Campeão da Construção"></a>
                 </div>
-                <div class="col-1 my-3">
+                <div class="col-md-2 col-sm-3 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_start.jpeg" alt="..." aria-label="Star móveis"></a>
                 </div>
-                <div class="col-1 my-3">
+                <div class="col-md-2 col-sm-3 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_catolica.jpg" alt="..." aria-label="Universidade Católica de Brasilia"></a>
                 </div>
-                <div class="col-1 my-3">
+                <div class="col-md-2 col-sm-3 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_uniube.png" alt="..." aria-label="Uniube"></a>
                 </div>
-                <div class="col-1 my-3">
+                <div class="col-md-2 col-sm-3 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_canaa.jpeg" alt="..." aria-label="Canaâ"></a>
                 </div>
-                <div class="col-1 my-3">
+                <div class="col-md-2 col-sm-3 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_coc.png" alt="..." aria-label="Coc"></a>
                 </div>
-                <div class="col-1 my-3">
+                <div class="col-md-2 col-sm-3 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_giga.png" alt="..." aria-label="Giga+"></a>
                 </div>
-                <div class="col-1 my-3">
+                <div class="col-md-2 col-sm-3 my-3">
                     <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_supercei.png" alt="..." aria-label="Supercei"></a>
                 </div>
             </div>
         </div>
         <!-- Footer-->  
-        <footer class="py-5 bg-black" id="contato">
-            <div class="d-flex">
-                <div class="col-2 m-3">
+        <footer class="py-5 bg-black container" id="contato" style="max-width: 100%;">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 px-5 text-center mb-sm-5 mb-lg-1">
                     <img style="text-align: center;width: 150px;" src="assets/img/logo-removebg.png" alt="">
                     <p style="color: white;font-size: 12px;">QUADRA QNM 26 CONJUNTO G LOTES 17, 19 E 21 S/N</p>
                     <p style="color: white;font-size: 12px;">Ceilandia Norte</p>
                 </div>
-                <div class="col-6 row">
+                <div class="col-lg-6 col-sm-12 container">
                     <h2 style="color: white;text-align: center;">CONTATO</h2>
-                    <div class="col-6 text-center">
-                        <div style="color: white;">
-                            <p>Número <br>+55 61 998420444<br>+55 61 984487408</p>
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <div style="color: white;">
+                                <p>Número <br>+55 61 998420444<br>+55 61 984487408</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-6 text-center">
-                        <div style="color: white;">
-                            <p>Email <br>contato.universomidia@gmail.com</p>
+                        <div class="col-md-6 text-center">
+                            <div style="color: white;">
+                                <p>Email <br>contato.universomidia@gmail.com</p>
+                            </div>
                         </div>
                     </div>
                     <div class="container text-center">
