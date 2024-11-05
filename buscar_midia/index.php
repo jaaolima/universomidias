@@ -173,10 +173,10 @@
                 </div>
             </div>
         </div>
-        <footer class="py-5 bg-black container" id="contato" style="max-width: 100%;">
+        <footer class="pt-5 pb-2 bg-black container" id="contato" style="max-width: 100%;position: relative;">
             <div class="row">
                 <div class="col-lg-6 col-sm-12 px-5 text-center mb-sm-5 mb-lg-1">
-                    <img style="text-align: center;width: 150px;" src="../assets/img/logo-removebg.png" alt="">
+                    <img style="text-align: center;width: 150px;" src="assets/img/logo-removebg.png" alt="">
                     <p style="color: white;font-size: 12px;">QUADRA QNM 26 CONJUNTO G LOTES 17, 19 E 21 S/N</p>
                     <p style="color: white;font-size: 12px;">Ceilandia Norte</p>
                 </div>
@@ -200,7 +200,12 @@
                     </div>
                 </div>
             </div>
-            <div class="container px-5 mt-5"><p class="m-0 text-center text-white small">Copyright &copy; Universo Mídia 2024</p></div>
+            <div class="container text-center px-5 mt-5">
+                <p class="m-0 text-center text-white small">Copyright &copy; Universo Mídia 2024</p>
+            </div>
+            <a href="#" style="position: absolute;bottom: 10px; right: 10px;">
+                <img src="assets/img/logo_jlt.png" width="65px" alt="">
+            </a>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
