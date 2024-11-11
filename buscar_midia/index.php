@@ -364,6 +364,7 @@
                     lng: longitude,
                     zoom: zoom,
                     mapTypeControl: false,
+                    mapTypeId: 'hybrid',
                     streetViewControl: false,
                     styles: [
                             {
