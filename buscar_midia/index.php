@@ -185,12 +185,12 @@
                     <div class="row">
                         <div class="col-md-6 text-center">
                             <div style="color: white;">
-                                <p>Número <br>+55 61 998420444<br>+55 61 984487408</p>
+                                <p>Número <br>+55 61 998420444<br>+55 61 984487408<br>+55 61 984179950</p>
                             </div>
                         </div>
                         <div class="col-md-6 text-center">
                             <div style="color: white;">
-                                <p>Email <br>contato.universomidia@gmail.com</p>
+                                <p>Email <br>contato.universomidia@gmail.com<br>bruno.universomidia@gmail.com</p>
                             </div>
                         </div>
                     </div>
