@@ -6,7 +6,7 @@ class Conecta {
 	var $senha;
 	var $banco;
 	
-	function __construct() {
+	function __construct() { 
 		$this->host = "";
 		$this->usuario = "";
 		$this->senha = "";
@@ -17,7 +17,7 @@ class Conecta {
 	public static function criarConexao(){ 
 		try
 		{
-			self::$db = new PDO('mysql:host=193.203.175.68;dbname=u981186774_painelpro;charset=utf8', 'u981186774_painelpro', 'Pif98171$'); 
+			self::$db = new PDO('mysql:host=167.71.26.252;dbname=sistema;charset=utf8', 'painelpro', 'Pif98171$'); 
 			
 	        self::$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             self::$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
