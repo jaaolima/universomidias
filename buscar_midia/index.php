@@ -203,9 +203,9 @@
             <div class="container text-center px-5 mt-5">
                 <p class="m-0 text-center text-white small">Copyright &copy; Universo Mídia 2024</p>
             </div>
-            <a href="#" style="position: absolute;bottom: 10px; right: 10px;">
+            <!-- <a href="#" style="position: absolute;bottom: 10px; right: 10px;">
                 <img src="../assets/img/logo_jlt.png" width="65px" alt="">
-            </a>
+            </a> -->
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
