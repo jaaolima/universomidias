@@ -190,7 +190,7 @@
                         </div>
                         <div class="col-md-6 text-center">
                             <div style="color: white;">
-                                <p>Email <br>contato.universomidia@gmail.com<br>rodrigouniversomidia@hotmail.com</p>
+                                <p>Email <br>contato.universomidia@gmail.com<br>rodrigouniversomidia@gmail.com</p>
                             </div>
                         </div>
                     </div>
