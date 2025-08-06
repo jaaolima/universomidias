@@ -214,6 +214,15 @@
         <script src="../js/scripts.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0sGOoifQgDLzR_xYQbaGiiqXRHaJN2tM"></script>
         <script src="../assets/plugins/custom/gmaps/gmaps.js"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17409836521"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-17409836521');
+        </script>
         <script>
 			// The following example creates complex markers to indicate beaches near
             // Sydney, NSW, Australia. Note that the anchor is set to (0,32) to correspond
