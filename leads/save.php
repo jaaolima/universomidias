@@ -42,8 +42,8 @@
 			"Local: $local\n".
 			"Página: $page\n".
 			"Data: $ts\n";
-		$headers = 'From: noreply@universomidia.com.br' . "\r\n" .
-				   'Reply-To: noreply@universomidia.com.br' . "\r\n" .
+		$headers = 'From: victorespucoc@gmail.com' . "\r\n" .
+				   'Reply-To: victorespucoc@gmail.com' . "\r\n" .
 				   'X-Mailer: PHP/' . phpversion();
 		@mail($to, $subject, $body, $headers);
 
