@@ -64,7 +64,7 @@
 				}).catch(function(){});
 			}catch(err){}
 
-			var url = 'https://wa.me/5561998420444?text='+encodeURIComponent(msg);
+			var url = 'https://wa.me/5561984487408?text='+encodeURIComponent(msg);
 			window.open(url,'_blank');
 		});
 	}
