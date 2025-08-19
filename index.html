@@ -1,329 +1,485 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="google-site-verification" content="TJZ2tvh75hbNt2z5rNYLbIiKGlwLf_yLKC-sg-OpHOI" />
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Universo Mídia e Painéis</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/logo-removebg.png" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <style>
-            .carousel-container {
-                position: relative;
-                /* width: 80%; */
-                margin: auto;
-                overflow: hidden;
-            }
-    
-            .carousel-slides {
-                display: flex;
-                transition: transform 0.5s ease;
-            }
-    
-            .carousel-slide {
-                min-width: 100%;
-                box-sizing: border-box;
-            }
-    
-            .carousel-slide img {
-                width: 100%;
-            }
-    
-            .carousel-buttons {
-                position: absolute;
-                top: 50%;
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-                transform: translateY(-50%);
-            }
-    
-            .carousel-buttons button {
-                background-color: rgba(0, 0, 0, 0.5);
-                color: white;
-                border: none;
-                padding: 10px;
-                cursor: pointer;
-                font-size: 18px;
-                border-radius: 50%;
-            }
-    
-            .carousel-buttons button:hover {
-                background-color: rgba(0, 0, 0, 0.7);
-            }
-            .masthead {
-                position: relative;
-                background-size: cover;
-                background-position: center;
-            }
+<html lang="pt-br">
+	<head>
+		<meta name="google-site-verification" content="TJZ2tvh75hbNt2z5rNYLbIiKGlwLf_yLKC-sg-OpHOI" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="description" content="Aluguel de Outdoor, Front-light, Empena e Painéis de LED em Brasília. Pontos estratégicos, 19 anos de experiência e atendimento rápido pelo WhatsApp. Peça um orçamento agora." />
+		<meta name="author" content="" />
+		<title>Universo Mídia e Painéis</title>
+		<link rel="icon" type="image/x-icon" href="assets/img/logo-removebg.png" />
+		<!-- Font Awesome icons (free version)-->
+		<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+		<!-- Google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+		<!-- Core theme CSS (includes Bootstrap)-->
+		<link href="css/styles.css" rel="stylesheet" />
+		<style>
+			.carousel-container {
+				position: relative;
+				/* width: 80%; */
+				margin: auto;
+				overflow: hidden;
+			}
+			
+			.carousel-slides {
+				display: flex;
+				transition: transform 0.5s ease;
+			}
+			
+			.carousel-slide {
+				min-width: 100%;
+				box-sizing: border-box;
+			}
+			
+			.carousel-slide img {
+				width: 100%;
+			}
+			
+			.carousel-buttons {
+				position: absolute;
+				top: 50%;
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+				transform: translateY(-50%);
+			}
+			
+			.carousel-buttons button {
+				background-color: rgba(0, 0, 0, 0.5);
+				color: white;
+				border: none;
+				padding: 10px;
+				cursor: pointer;
+				font-size: 18px;
+				border-radius: 50%;
+			}
+			
+			.carousel-buttons button:hover {
+				background-color: rgba(0, 0, 0, 0.7);
+			}
+			.masthead {
+				position: relative;
+				background-size: cover;
+				background-position: center;
+			}
 
-            .masthead::before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background-image: url(assets/img/img_brasilia.jpg);
-                background-size: cover;
-                background-position: center;
-                filter: brightness(0.3); /* Ajuste o brilho conforme necessário */
-                z-index: 0; /* Coloca a imagem abaixo do conteúdo */
-            }
+			.masthead::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-image: url(assets/img/img_brasilia.jpg);
+				background-size: cover;
+				background-position: center;
+				filter: brightness(0.3); /* Ajuste o brilho conforme necessário */
+				z-index: 0; /* Coloca a imagem abaixo do conteúdo */
+			}
 
-            body{
-                overflow-x: hidden !important;
-            }
-        </style>
-    </head>
-    <body id="page-top" class="w-100">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-            <div class="container px-5">
+			body{
+				overflow-x: hidden !important;
+			}
 
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/logo-removebg.png" alt="" style="width: 50px;">
-                    Universo Mídia</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="buscar_midia">Buscar mídias</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sobre_nos">Sobre nós</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Header-->
-        <header class="masthead text-center text-white" style="background-image: url(assets/img/img_brasilia.jpg);">
-            <div class="masthead-content">
-                <div class="container px-5">
-                    <h1 class="mb-0">Destaque sua marca em Brasília com nossas mídias estrategicamente localizadas e alcance milhares de pessoas diariamente</h1>
-                    <!-- <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2> -->
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="buscar_midia">Escolha seu ponto!</a>
-                </div>
-            </div>
-        </header>
-        <!-- <div class="carousel-container" style="max-height: 400px;">
-            <div class="carousel-slides" id="carouselSlides">
-                <div class="carousel-slide">
-                    <img src="assets/img/img_midia9.jpeg" alt="Imagem 1">
-                    <img src="assets/img/img_midia10.jpeg" alt="Imagem 1">
-                    <img src="assets/img/img_midia11.jpeg" alt="Imagem 2">
-                </div>
-                <div class="carousel-slide">
-                    <img src="assets/img/img_midia12.jpeg" alt="Imagem 3">
-                    <img src="assets/img/img_midia13.jpeg" alt="Imagem 3">
-                    <img src="assets/img/img_midia14.jpeg" alt="Imagem 3">
-                </div>
-                <div class="carousel-slide">
-                    <img src="assets/img/img_midia15.jpeg" alt="Imagem 3">
-                    <img src="assets/img/img_midia16.jpeg" alt="Imagem 3">
-                </div>
-            </div>
-            <div class="carousel-buttons">
-                <button onclick="moveSlide(-1)">&#10094;</button>
-                <button onclick="moveSlide(1)">&#10095;</button>
-            </div>
-        </div> -->
-        <!-- Content section 1-->
-        <h1 class="text-center my-5" style="font-weight:200;">Nossos Produtos</h1>
-        <section id="scroll">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/img_outdoor2.jpg" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Outdoor</h2>
-                            <p style="font-size:20px;">Uma publicidade exterior em grandes painéis, localizados em áreas de alta circulação, que destaca sua marca para um público amplo e aumenta a visibilidade da sua mensagem.</p>
-                            <a href="buscar_midia?id_tipo=1" class="btn btn-primary">Quero alugar!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Content section 2-->
-        <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/img_front-light.png" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="p-5">
-                            <h2 class="display-4">Front-light</h2>
-                            <p style="font-size:20px;">Um painel iluminado, projetado para chamar a atenção tanto durante o dia quanto à noite, ideal para destacar sua marca em locais estratégicos com iluminação eficiente.</p>
-                            <a href="buscar_midia?id_tipo=2" class="btn btn-primary">Quero alugar!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Content section 3-->
-        <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/img_midia13.png" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Empena</h2>
-                            <p style="font-size:20px;">Uma estrutura publicitária fixa, geralmente posicionada na lateral de edifícios, que proporciona alta visibilidade e se torna um verdadeiro cartão de visita para a sua marca em áreas urbanas movimentadas.</p>
-                            <a href="buscar_midia?id_tipo=3" class="btn btn-primary">Quero alugar!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/img_midia17.png" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="p-5">
-                            <h2 class="display-4">LED</h2>
-                            <p style="font-size:20px;">Uma mídia digital dinâmica que utiliza tecnologia de iluminação em painéis eletrônicos, permitindo a exibição de anúncios vibrantes e em movimento, capturando a atenção do público de forma impactante.</p>
-                            <a href="buscar_midia?id_tipo=4" class="btn btn-primary">Quero alugar!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="bg-light p-5"  id="sobre_nos">
-            <div class="container m-0">
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-md-5 p-5 m-3 text-white" style="background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);border-radius: 50px;">
-                        <h1 style="font-size:80px;">Olá,<br>somos a<br>Universo Mídia</h1>
-                    </div>
-                    <div class="col-md-5 p-5 m-3">
-                        <div class="text-center my-5">
-                            <p class="lead fw-light mb-4" style="font-size: 30px;font-weight: 500 !important;">Com mais de <b style="color: #ee0979;">19 anos de experiência</b>, fornecemos serviços de mídia OOH(Mídia out-of-home, ou mídia fora-de-casa) e levamos sua empresa para as avenidas mais movimentadas de Brasília e região.</p>
-                            <div class="d-flex justify-content-center fs-2 gap-4">
-                                <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
-                                <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                                <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <h1 class="text-center my-5" id="parceiros" style="font-weight:200;">Nossos Parceiros</h1>
-        <div class="py-5">
-            <div class="row align-items-center d-flex">
-                <div class="col-md-2 col-sm-3 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_castelo_forte.jpg" alt="..." aria-label="Castelo Forte"></a>
-                </div>
-                <div class="col-md-2 col-sm-3 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_campeao.png" alt="..." aria-label="Campeão da Construção"></a>
-                </div>
-                <div class="col-md-2 col-sm-3 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_start.jpeg" alt="..." aria-label="Star móveis"></a>
-                </div>
-                <div class="col-md-2 col-sm-3 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_catolica.jpg" alt="..." aria-label="Universidade Católica de Brasilia"></a>
-                </div>
-                <div class="col-md-2 col-sm-3 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_uniube.png" alt="..." aria-label="Uniube"></a>
-                </div>
-                <div class="col-md-2 col-sm-3 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_canaa.jpeg" alt="..." aria-label="Canaâ"></a>
-                </div>
-                <div class="col-md-2 col-sm-3 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_coc.png" alt="..." aria-label="Coc"></a>
-                </div>
-                <div class="col-md-2 col-sm-3 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_giga.png" alt="..." aria-label="Giga+"></a>
-                </div>
-                <div class="col-md-2 col-sm-3 my-3">
-                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_supercei.png" alt="..." aria-label="Supercei"></a>
-                </div>
-            </div>
-        </div>
-        <!-- Footer-->  
-        <footer class="pt-5 pb-2 bg-black container" id="contato" style="max-width: 100%;position: relative;">
-            <div class="row">
-                <div class="col-lg-6 col-sm-12 px-5 text-center mb-sm-5 mb-lg-1">
-                    <img style="text-align: center;width: 150px;" src="assets/img/logo-removebg.png" alt="">
-                    <p style="color: white;font-size: 12px;">QUADRA QNM 26 CONJUNTO G LOTES 17, 19 E 21 S/N</p>
-                    <p style="color: white;font-size: 12px;">Ceilandia Norte</p>
-                </div>
-                <div class="col-lg-6 col-sm-12 container">
-                    <h2 style="color: white;text-align: center;">CONTATO</h2>
-                    <div class="row">
-                        <div class="col-md-6 text-center">
-                            <div style="color: white;">
-                                <p>Número <br>+55 61 998420444<br>+55 61 984487408<br>+55 61 998050444</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 text-center">
-                            <div style="color: white;">
-                                <p>Email <br>contato.universomidia@gmail.com<br>rodrigouniversomidia@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container text-center">
-                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.instagram.com/universo.midia/" aria-label="Instagram"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#ffffff"></path> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#ffffff"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#ffffff"></path> </g></svg></a>
-                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://wa.me/5561984487408?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20seus%20serviços!" aria-label="Whatsapp"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.624"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M3.50002 12C3.50002 7.30558 7.3056 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.3278 20.5 8.77127 20.0182 7.45798 19.1861C7.21357 19.0313 6.91408 18.9899 6.63684 19.0726L3.75769 19.9319L4.84173 17.3953C4.96986 17.0955 4.94379 16.7521 4.77187 16.4751C3.9657 15.176 3.50002 13.6439 3.50002 12ZM12 1.5C6.20103 1.5 1.50002 6.20101 1.50002 12C1.50002 13.8381 1.97316 15.5683 2.80465 17.0727L1.08047 21.107C0.928048 21.4637 0.99561 21.8763 1.25382 22.1657C1.51203 22.4552 1.91432 22.5692 2.28599 22.4582L6.78541 21.1155C8.32245 21.9965 10.1037 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5ZM14.2925 14.1824L12.9783 15.1081C12.3628 14.7575 11.6823 14.2681 10.9997 13.5855C10.2901 12.8759 9.76402 12.1433 9.37612 11.4713L10.2113 10.7624C10.5697 10.4582 10.6678 9.94533 10.447 9.53028L9.38284 7.53028C9.23954 7.26097 8.98116 7.0718 8.68115 7.01654C8.38113 6.96129 8.07231 7.046 7.84247 7.24659L7.52696 7.52195C6.76823 8.18414 6.3195 9.2723 6.69141 10.3741C7.07698 11.5163 7.89983 13.314 9.58552 14.9997C11.3991 16.8133 13.2413 17.5275 14.3186 17.8049C15.1866 18.0283 16.008 17.7288 16.5868 17.2572L17.1783 16.7752C17.4313 16.5691 17.5678 16.2524 17.544 15.9269C17.5201 15.6014 17.3389 15.308 17.0585 15.1409L15.3802 14.1409C15.0412 13.939 14.6152 13.9552 14.2925 14.1824Z" fill="#ffffff"></path> </g></svg></a>
-                    </div>
-                </div>
-            </div>
-            <div class="container text-center px-5 mt-5">
-                <p class="m-0 text-center text-white small">Copyright &copy; Universo Mídia 2024</p>
-            </div>
-            <!-- <a href="#" style="position: absolute;bottom: 10px; right: 10px;">
-                <img src="assets/img/logo_jlt.png" width="65px" alt="">
-            </a> -->
-        </footer>
-        
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17409836521">
-        </script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+			/* Conversão: formulário no hero */
+			.lead-card{
+				background: #ffffff;
+				border-radius: 14px;
+				box-shadow: 0 20px 60px rgba(0,0,0,.25);
+				max-width: 420px;
+				margin-left: auto;
+				margin-right: auto;
+				z-index: 1;
+			}
+			.lead-card h3{ font-weight: 800; }
+			.lead-card small{ color:#6c757d; }
+			.lead-card .form-control,
+			.lead-card .form-select{ padding: .8rem 1rem; border-radius: 10px; }
+			.lead-card .btn-primary{ width: 100%; padding: .9rem 1rem; border-radius: 12px; }
 
-            gtag('config', 'AW-17409836521');
-        </script>
-        <script>
-            let currentSlide = 0;
-        
-            function moveSlide(direction) {
-                const slides = document.getElementById('carouselSlides');
-                const totalSlides = slides.children.length;
-                
-                // Calcula o próximo índice do slide
-                currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
-        
-                // Move o carrossel para o slide correspondente
-                slides.style.transform = `translateX(-${currentSlide * 100}%)`;
-            }
+			/* Barra de CTA fixa no mobile */
+			.sticky-cta{ position: fixed; bottom: 0; left: 0; right: 0; background: #111; padding: .5rem; z-index: 1000; }
+			.sticky-cta .btn{ border-radius: 10px; font-weight: 700; }
 
-            // Função para avançar automaticamente o slide a cada 4 segundos
-            function autoSlide() {
-                moveSlide(1);
-            }
+			/* Botão flutuante WhatsApp */
+			.floating-whatsapp{ position: fixed; right: 16px; bottom: 90px; z-index: 999; background: #25D366; color:#fff; width:56px; height:56px; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow: 0 8px 24px rgba(0,0,0,.25); }
+			.floating-whatsapp:hover{ color:#fff; opacity:.9; }
+		</style>
+	</head>
+	<body id="page-top" class="w-100">
+		<!-- Navigation-->
+		<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+			<div class="container px-5">
 
-            // Configura o intervalo para trocar o slide automaticamente
-            setInterval(autoSlide, 4000);
-        </script>
-    </body>
+				<a class="navbar-brand" href="#">
+					<img src="assets/img/logo-removebg.png" alt="" style="width: 50px;">
+					Universo Mídia</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item"><a class="nav-link" href="buscar_midia">Buscar mídias</a></li>
+						<li class="nav-item"><a class="nav-link" href="#sobre_nos">Sobre nós</a></li>
+						<li class="nav-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
+						<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+					</ul>
+					<a href="#lead-section" class="btn btn-primary ms-lg-3 d-none d-lg-inline-block js-open-lead">Pedir orçamento</a>
+				</div>
+			</div>
+		</nav>
+		<!-- Header-->
+		<header class="masthead text-center text-white" style="background-image: url(assets/img/img_brasilia.jpg);">
+			<div class="masthead-content">
+				<div class="container px-5">
+					<div class="row align-items-center">
+						<div class="col-lg-7 text-lg-start">
+							<h1 class="mb-4">Destaque sua marca em Brasília com nossas mídias estrategicamente localizadas e alcance milhares de pessoas diariamente</h1>
+									<div class="d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap">
+								<a class="btn btn-outline-light btn-xl rounded-pill mt-2 js-open-lead" href="#lead-section">Falar com especialista</a>
+								<a class="btn btn-primary btn-xl rounded-pill mt-2" href="buscar_midia">Ver mídias disponíveis</a>
+							</div>
+						</div>
+						<div class="col-lg-5 mt-5 mt-lg-0" id="lead-section">
+							<div class="lead-card p-4">
+								<h3 class="mb-1">Peça um orçamento rápido</h3>
+								<small>Resposta pelo WhatsApp em minutos. Sem compromisso.</small>
+								<form id="leadForm" class="mt-3">
+									<div class="mb-2">
+										<label for="midia" class="form-label">Tipo de mídia</label>
+										<select id="midia" class="form-select" required>
+											<option value="Outdoor">Outdoor</option>
+											<option value="Front-light">Front-light</option>
+											<option value="Empena">Empena</option>
+											<option value="LED">LED</option>
+										</select>
+									</div>
+									<div class="mb-2">
+										<label for="nome" class="form-label">Seu nome</label>
+										<input id="nome" type="text" class="form-control" placeholder="Nome completo" required />
+									</div>
+									<div class="mb-2">
+										<label for="telefone" class="form-label">WhatsApp</label>
+										<input id="telefone" type="tel" class="form-control" placeholder="(61) 9 9999-9999" required />
+									</div>
+									<div class="mb-2">
+										<label for="email" class="form-label">E-mail (opcional)</label>
+										<input id="email" type="email" class="form-control" placeholder="seu@email.com" />
+									</div>
+									<div class="mb-3">
+										<label for="local" class="form-label">Local de interesse (cidade/bairro)</label>
+										<input id="local" type="text" class="form-control" placeholder="Ex.: Eixo Monumental, Taguatinga..." />
+									</div>
+									<button type="submit" class="btn btn-primary">Quero um orçamento</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- <div class="carousel-container" style="max-height: 400px;">
+			<div class="carousel-slides" id="carouselSlides">
+				<div class="carousel-slide">
+					<img src="assets/img/img_midia9.jpeg" alt="Imagem 1">
+					<img src="assets/img/img_midia10.jpeg" alt="Imagem 1">
+					<img src="assets/img/img_midia11.jpeg" alt="Imagem 2">
+				</div>
+				<div class="carousel-slide">
+					<img src="assets/img/img_midia12.jpeg" alt="Imagem 3">
+					<img src="assets/img/img_midia13.jpeg" alt="Imagem 3">
+					<img src="assets/img/img_midia14.jpeg" alt="Imagem 3">
+				</div>
+				<div class="carousel-slide">
+					<img src="assets/img/img_midia15.jpeg" alt="Imagem 3">
+					<img src="assets/img/img_midia16.jpeg" alt="Imagem 3">
+				</div>
+			</div>
+			<div class="carousel-buttons">
+				<button onclick="moveSlide(-1)">&#10094;</button>
+				<button onclick="moveSlide(1)">&#10095;</button>
+			</div>
+		</div> -->
+		<!-- Content section 1-->
+		<h1 class="text-center my-5" style="font-weight:200;">Nossos Produtos</h1>
+		<section id="scroll">
+			<div class="container px-5">
+				<div class="row gx-5 align-items-center">
+					<div class="col-lg-6 order-lg-2">
+						<div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/img_outdoor2.jpg" alt="..." /></div>
+					</div>
+					<div class="col-lg-6 order-lg-1">
+						<div class="p-5">
+							<h2 class="display-4">Outdoor</h2>
+							<p style="font-size:20px;">Uma publicidade exterior em grandes painéis, localizados em áreas de alta circulação, que destaca sua marca para um público amplo e aumenta a visibilidade da sua mensagem.</p>
+							<a href="#lead-section" data-midia="Outdoor" class="btn btn-primary js-open-lead">Quero alugar!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Content section 2-->
+		<section>
+			<div class="container px-5">
+				<div class="row gx-5 align-items-center">
+					<div class="col-lg-6">
+						<div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/img_front-light.png" alt="..." /></div>
+					</div>
+					<div class="col-lg-6">
+						<div class="p-5">
+							<h2 class="display-4">Front-light</h2>
+							<p style="font-size:20px;">Um painel iluminado, projetado para chamar a atenção tanto durante o dia quanto à noite, ideal para destacar sua marca em locais estratégicos com iluminação eficiente.</p>
+							<a href="#lead-section" data-midia="Front-light" class="btn btn-primary js-open-lead">Quero alugar!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Content section 3-->
+		<section>
+			<div class="container px-5">
+				<div class="row gx-5 align-items-center">
+					<div class="col-lg-6 order-lg-2">
+						<div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/img_midia13.png" alt="..." /></div>
+					</div>
+					<div class="col-lg-6 order-lg-1">
+						<div class="p-5">
+							<h2 class="display-4">Empena</h2>
+							<p style="font-size:20px;">Uma estrutura publicitária fixa, geralmente posicionada na lateral de edifícios, que proporciona alta visibilidade e se torna um verdadeiro cartão de visita para a sua marca em áreas urbanas movimentadas.</p>
+							<a href="#lead-section" data-midia="Empena" class="btn btn-primary js-open-lead">Quero alugar!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container px-5">
+				<div class="row gx-5 align-items-center">
+					<div class="col-lg-6">
+						<div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/img_midia17.png" alt="..." /></div>
+					</div>
+					<div class="col-lg-6">
+						<div class="p-5">
+							<h2 class="display-4">LED</h2>
+							<p style="font-size:20px;">Uma mídia digital dinâmica que utiliza tecnologia de iluminação em painéis eletrônicos, permitindo a exibição de anúncios vibrantes e em movimento, capturando a atenção do público de forma impactante.</p>
+							<a href="#lead-section" data-midia="LED" class="btn btn-primary js-open-lead">Quero alugar!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Mídias em destaque -->
+		<section class="py-5">
+			<div class="container px-5">
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<h2 class="m-0" style="font-weight:200;">Mídias em destaque</h2>
+					<a href="buscar_midia" class="btn btn-outline-primary">Ver todas</a>
+				</div>
+				<div class="row" id="grid-destaques"></div>
+			</div>
+		</section>
+
+		<!-- Como funciona (reduz fricção) -->
+		<section class="py-5 bg-light">
+			<div class="container px-5">
+				<h2 class="text-center mb-4" style="font-weight:200;">Como funciona</h2>
+				<div class="row text-center">
+					<div class="col-md-4 mb-4">
+						<div class="p-4 h-100 border rounded-4">
+							<h5>1) Envie seu interesse</h5>
+							<p>Informe o formato e região. Respondemos rapidamente pelo WhatsApp.</p>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="p-4 h-100 border rounded-4">
+							<h5>2) Indicamos os melhores pontos</h5>
+							<p>Sugestões estratégicas para seu público e orçamento.</p>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="p-4 h-100 border rounded-4">
+							<h5>3) Fechamento simples</h5>
+							<p>Contrato ágil e instalação conforme cronograma.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bg-light p-5"  id="sobre_nos">
+			<div class="container m-0">
+				<div class="row gx-5 justify-content-center">
+					<div class="col-md-5 p-5 m-3 text-white" style="background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);border-radius: 50px;">
+						<h1 style="font-size:80px;">Olá,<br>somos a<br>Universo Mídia</h1>
+					</div>
+					<div class="col-md-5 p-5 m-3">
+						<div class="text-center my-5">
+							<p class="lead fw-light mb-4" style="font-size: 30px;font-weight: 500 !important;">Com mais de <b style="color: #ee0979;">19 anos de experiência</b>, fornecemos serviços de mídia OOH(Mídia out-of-home, ou mídia fora-de-casa) e levamos sua empresa para as avenidas mais movimentadas de Brasília e região.</p>
+							<div class="d-flex justify-content-center fs-2 gap-4">
+								<a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
+								<a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
+								<a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- FAQ -->
+		<section class="py-5">
+			<div class="container px-5">
+				<h2 class="text-center mb-4" style="font-weight:200;">Dúvidas frequentes</h2>
+				<div class="accordion" id="faq">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="q1"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">Quais formatos vocês oferecem?</button></h2>
+						<div id="a1" class="accordion-collapse collapse show" aria-labelledby="q1" data-bs-parent="#faq">
+							<div class="accordion-body">Outdoor, Front-light, Empena e LED, todos em pontos estratégicos de Brasília e região.</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="q2"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">Como é o processo para alugar?</button></h2>
+						<div id="a2" class="accordion-collapse collapse" aria-labelledby="q2" data-bs-parent="#faq">
+							<div class="accordion-body">Você envia seu interesse, indicamos os melhores pontos e seguimos para a contratação e instalação.</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="q3"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">Quanto tempo para veicular?</button></h2>
+						<div id="a3" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faq">
+							<div class="accordion-body">Depende do formato e disponibilidade do ponto. Após a escolha, agilizamos o cronograma para iniciar o quanto antes.</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center mt-4">
+					<a class="btn btn-primary js-open-lead" href="#lead-section">Quero um orçamento</a>
+				</div>
+			</div>
+		</section>
+		<h1 class="text-center my-5" id="parceiros" style="font-weight:200;">Nossos Parceiros</h1>
+		<div class="py-5">
+			<div class="row align-items-center d-flex">
+				<div class="col-md-2 col-sm-3 my-3">
+					<a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_castelo_forte.jpg" alt="..." aria-label="Castelo Forte"></a>
+				</div>
+				<div class="col-md-2 col-sm-3 my-3">
+					<a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_campeao.png" alt="..." aria-label="Campeão da Construção"></a>
+				</div>
+				<div class="col-md-2 col-sm-3 my-3">
+					<a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_start.jpeg" alt="..." aria-label="Star móveis"></a>
+				</div>
+				<div class="col-md-2 col-sm-3 my-3">
+					<a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_catolica.jpg" alt="..." aria-label="Universidade Católica de Brasilia"></a>
+				</div>
+				<div class="col-md-2 col-sm-3 my-3">
+					<a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_uniube.png" alt="..." aria-label="Uniube"></a>
+				</div>
+				<div class="col-md-2 col-sm-3 my-3">
+					<a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_canaa.jpeg" alt="..." aria-label="Canaâ"></a>
+				</div>
+				<div class="col-md-2 col-sm-3 my-3">
+					<a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_coc.png" alt="..." aria-label="Coc"></a>
+				</div>
+				<div class="col-md-2 col-sm-3 my-3">
+					<a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_giga.png" alt="..." aria-label="Giga+"></a>
+				</div>
+				<div class="col-md-2 col-sm-3 my-3">
+					<a href="#!"><img class="img-fluid img-brand d-block mx-auto rounded-circle" width="100px" src="assets/img/logo_supercei.png" alt="..." aria-label="Supercei"></a>
+				</div>
+			</div>
+		</div>
+		<!-- Footer-->
+		<footer class="pt-5 pb-2 bg-black container" id="contato" style="max-width: 100%;position: relative;">
+			<div class="row">
+				<div class="col-lg-6 col-sm-12 px-5 text-center mb-sm-5 mb-lg-1">
+					<img style="text-align: center;width: 150px;" src="assets/img/logo-removebg.png" alt="">
+					<p style="color: white;font-size: 12px;">QUADRA QNM 26 CONJUNTO G LOTES 17, 19 E 21 S/N</p>
+					<p style="color: white;font-size: 12px;">Ceilandia Norte</p>
+				</div>
+				<div class="col-lg-6 col-sm-12 container">
+					<h2 style="color: white;text-align: center;">CONTATO</h2>
+					<div class="row">
+						<div class="col-md-6 text-center">
+							<div style="color: white;">
+								<p>Número <br>+55 61 998420444<br>+55 61 984487408<br>+55 61 998050444</p>
+							</div>
+						</div>
+						<div class="col-md-6 text-center">
+							<div style="color: white;">
+								<p>Email <br>contato.universomidia@gmail.com<br>rodrigouniversomidia@gmail.com</p>
+							</div>
+						</div>
+					</div>
+					<div class="container text-center">
+						<a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.instagram.com/universo.midia/" aria-label="Instagram"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#ffffff"></path> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#ffffff"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#ffffff"></path> </g></svg></a>
+						<a class="btn btn-dark btn-social mx-2" target="_blank" href="https://wa.me/5561984487408?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20seus%20serviços!" aria-label="Whatsapp"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.624"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M3.50002 12C3.50002 7.30558 7.3056 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.3278 20.5 8.77127 20.0182 7.45798 19.1861C7.21357 19.0313 6.91408 18.9899 6.63684 19.0726L3.75769 19.9319L4.84173 17.3953C4.96986 17.0955 4.94379 16.7521 4.77187 16.4751C3.9657 15.176 3.50002 13.6439 3.50002 12ZM12 1.5C6.20103 1.5 1.50002 6.20101 1.50002 12C1.50002 13.8381 1.97316 15.5683 2.80465 17.0727L1.08047 21.107C0.928048 21.4637 0.99561 21.8763 1.25382 22.1657C1.51203 22.4552 1.91432 22.5692 2.28599 22.4582L6.78541 21.1155C8.32245 21.9965 10.1037 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5ZM14.2925 14.1824L12.9783 15.1081C12.3628 14.7575 11.6823 14.2681 10.9997 13.5855C10.2901 12.8759 9.76402 12.1433 9.37612 11.4713L10.2113 10.7624C10.5697 10.4582 10.6678 9.94533 10.447 9.53028L9.38284 7.53028C9.23954 7.26097 8.98116 7.0718 8.68115 7.01654C8.38113 6.96129 8.07231 7.046 7.84247 7.24659L7.52696 7.52195C6.76823 8.18414 6.3195 9.2723 6.69141 10.3741C7.07698 11.5163 7.89983 13.314 9.58552 14.9997C11.3991 16.8133 13.2413 17.5275 14.3186 17.8049C15.1866 18.0283 16.008 17.7288 16.5868 17.2572L17.1783 16.7752C17.4313 16.5691 17.5678 16.2524 17.544 15.9269C17.5201 15.6014 17.3389 15.308 17.0585 15.1409L15.3802 14.1409C15.0412 13.939 14.6152 13.9552 14.2925 14.1824Z" fill="#ffffff"></path> </g></svg></a>
+					</div>
+				</div>
+			</div>
+			<div class="container text-center px-5 mt-5">
+				<p class="m-0 text-center text-white small">Copyright &copy; Universo Mídia 2024</p>
+			</div>
+			<!-- <a href="#" style="position: absolute;bottom: 10px; right: 10px;">
+				<img src="assets/img/logo_jlt.png" width="65px" alt="">
+			</a> -->
+		</footer>
+
+		<!-- CTA fixa mobile -->
+		<div class="sticky-cta d-lg-none">
+			<div class="container d-flex gap-2">
+				<a href="#lead-section" class="btn btn-primary flex-fill js-open-lead">Pedir orçamento</a>
+				<a href="tel:+5561998420444" class="btn btn-outline-light flex-fill">Ligar</a>
+			</div>
+		</div>
+		<a href="https://wa.me/5561998420444" class="floating-whatsapp" aria-label="Fale no WhatsApp" target="_blank"><i class="fab fa-whatsapp fa-lg"></i></a>
+		
+		<!-- Bootstrap core JS-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Core theme JS-->
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17409836521">
+		</script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'AW-17409836521');
+		</script>
+		<script>
+			let currentSlide = 0;
+			
+			function moveSlide(direction) {
+				const slides = document.getElementById('carouselSlides');
+				const totalSlides = slides.children.length;
+				
+				// Calcula o próximo índice do slide
+				currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+				
+				// Move o carrossel para o slide correspondente
+				slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+			}
+
+			// Função para avançar automaticamente o slide a cada 4 segundos
+			function autoSlide() {
+				moveSlide(1);
+			}
+
+			// Configura o intervalo para trocar o slide automaticamente
+			setInterval(autoSlide, 4000);
+		</script>
+		<script>
+			// Carrega destaques e popula grid na home
+			(function(){
+				var grid = document.getElementById('grid-destaques');
+				if(!grid) return;
+				fetch('api/destaques.php').then(function(r){return r.json()}).then(function(resp){
+					if(!resp || !resp.ok) return;
+					var html = resp.data.map(function(p){
+						var wpp = 'https://wa.me/5561984487408?text='+encodeURIComponent('Olá, vi a mídia '+p.localidade+' ('+p.tipo+') e quero mais detalhes.');
+						return '\n<div class="col-md-4 mb-4">\n\t<div class="card h-100">\n\t\t<img class="card-img-top" src="'+p.foto+'" alt="'+p.localidade+'">\n\t\t<div class="card-body">\n\t\t\t<h5 class="card-title">'+p.localidade+'</h5>\n\t\t\t<p class="card-text text-muted">'+(p.descricao||'')+'</p>\n\t\t\t<span class="badge bg-light text-dark me-2">'+p.tipo+'</span><span class="badge bg-light text-dark">'+(p.tamanho||'')+'</span>\n\t\t</div>\n\t\t<div class="card-footer bg-white border-0">\n\t\t\t<a class="btn btn-sm btn-primary" href="'+wpp+'" target="_blank">Falar no WhatsApp</a>\n\t\t\t<a class="btn btn-sm btn-outline-secondary ms-2" href="buscar_midia?bairro='+encodeURIComponent(p.localidade)+'">Ver no mapa</a>\n\t\t</div>\n\t</div>\n</div>';
+					}).join('');
+					grid.innerHTML = html;
+				}).catch(function(){});
+			})();
+		</script>
+		<script src="js/scripts.js"></script>
+	</body>
 </html>
