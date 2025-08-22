@@ -61,8 +61,28 @@
 					method:'POST',
 					headers:{'Content-Type':'application/json'},
 					body: JSON.stringify({ midia: midia, nome: nome, telefone: telefone, email: email, local: local, page: location.pathname+location.search, ts: new Date().toISOString() })
-				}).catch(function(){});
-			}catch(err){}
+				})
+				.then(function(r){ return r.json(); })
+				.then(function(resp){
+					console.log('Lead salvo:', resp);
+					if(resp && resp.ok){
+						// Feedback visual opcional
+						var btn = form.querySelector('button[type="submit"]');
+						var originalText = btn.textContent;
+						btn.textContent = '✓ Enviado!';
+						btn.disabled = true;
+						setTimeout(function(){
+							btn.textContent = originalText;
+							btn.disabled = false;
+						}, 2000);
+					}
+				})
+				.catch(function(err){
+					console.error('Erro ao salvar lead:', err);
+				});
+			}catch(err){
+				console.error('Erro no fetch:', err);
+			}
 
 			var url = 'https://wa.me/5561984487408?text='+encodeURIComponent(msg);
 			window.open(url,'_blank');

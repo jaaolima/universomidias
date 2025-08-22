@@ -1,0 +1,22 @@
+# Permite acesso ao diretório leads
+<Files "*.php">
+    Require all granted
+</Files>
+
+# Permite POST para save.php
+<Files "save.php">
+    Require all granted
+    <Limit POST>
+        Require all granted
+    </Limit>
+</Files>
+
+# Permite acesso ao CSV
+<Files "*.csv">
+    Require all granted
+</Files>
+
+# Headers CORS
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+Header always set Access-Control-Allow-Headers "Content-Type" 
